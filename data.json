@@ -1,0 +1,15 @@
+{
+    "items":[{
+        "nome":"cenoura",
+        "preco":1.5
+    },
+    {
+        "nome":"banana",
+        "preco":1.5
+    },
+    {
+        "nome":"laranja",
+        "preco":1.5
+    }
+    ]
+}
