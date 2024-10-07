@@ -9,9 +9,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "cors": "^2.8.5",
     "express": "^4.21.0",
+    "express-validator": "^7.2.0",
     "fs": "^0.0.1-security",
+    "nearest-pantone": "^1.0.1",
     "node": "^22.9.0",
     "nodemon": "^3.1.7"
   },
