@@ -50,6 +50,9 @@ app.get("/products/newlist", (req, res) => {
 app.post("/", (req, res) => {
     const newlist = JSON.parse(fs.readFileSync("provdata.json", "utf-8"))
     const update = fs.writeFileSync("data.json", JSON.stringify(newlist))
+    List =[]
+    const clear = fs.writeFileSync("provdata.json", JSON.stringify({ "newlist": [] }))
+
 })
 
 app.listen(port, () => {

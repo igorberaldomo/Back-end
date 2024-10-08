@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Api</h1>
-    <h2>lista antiga: </h2>
+
     <div id="app">
+        <h1>Api</h1>
+        <h2>lista antiga: </h2>
         <table id="table">
             
         </table>
-        <label for="title">título <input type="text" name="title" id="title" autocomplete="off" ></label>
+        <div id ="container">
+        <label for="title">Título: <input type="text" name="title" id="title" autocomplete="off" ></label>
         <label for="description">Descrição: <input type="text" name="description" id="description" autocomplete="off" ></label>
-        <label for="quantity">Quantidade: <input type="text" name="quantity" id="quantity" autocomplete="off" ></label>
-        
-
+        <label for="quantity">Quantidade: <input type="number" name="quantity" id="quantity" autocomplete="off" ></label>
+        </div>
         <button id="btn" onclick="addList()">adicionar na nova lista</button>
         <h2>Veja como será a nova lista:</h2>
         <table id ="temptable"></table>
